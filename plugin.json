@@ -1,0 +1,15 @@
+{
+    "id": "campeonatos",
+    "name": "Campeonatos BR",
+    "description": "Próximos jogos de Libertadores, Copa do Brasil e Brasileirão",
+    "version": "1.0.0",
+    "author": "nadotti",
+    "license": "MIT",
+    "icon": "sports_soccer",
+    "type": "widget",
+    "component": "./DankCampeonatosWidget.qml",
+    "settings": "./DankCampeonatosSettings.qml",
+    "requires_dms": ">=1.4.0",
+    "requires": ["curl"],
+    "permissions": ["settings_read", "settings_write", "process"]
+}
